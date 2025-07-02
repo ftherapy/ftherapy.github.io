@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder Therapy</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles to match the look and feel of clausebridge.abilitymatrix.com */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+            color: #1e293b; /* Slate-800 */
+        }
+        .hero-section {
+            background-color: #f1f5f9; /* Slate-100 */
+        }
+        .section-title {
+            color: #0f172a; /* Slate-900 */
+        }
+        .quote-card {
+            background-color: #ffffff;
+            border-left: 4px solid #4f46e5; /* Indigo-600 */
+        }
+        .cta-button {
+            background-color: #4f46e5; /* Indigo-600 */
+            color: white;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #4338ca; /* Indigo-700 */
+        }
+        .nav-link {
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #4f46e5; /* Indigo-600 */
+        }
+        .mobile-menu {
+            display: none;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-slate-800">Founder Therapy</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#concept" class="nav-link text-slate-600 font-medium">Concept</a>
+                <a href="#accelerators" class="nav-link text-slate-600 font-medium">For Accelerators</a>
+                <a href="#founders" class="nav-link text-slate-600 font-medium">For Founders</a>
+                <a href="#contact" class="cta-button px-5 py-2 rounded-lg font-semibold shadow-sm">Get In Touch</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-slate-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu md:hidden px-6 pb-4">
+            <a href="#concept" class="block py-2 text-slate-600 font-medium">Concept</a>
+            <a href="#accelerators" class="block py-2 text-slate-600 font-medium">For Accelerators</a>
+            <a href="#founders" class="block py-2 text-slate-600 font-medium">For Founders</a>
+            <a href="#contact" class="block mt-4 cta-button text-center px-5 py-2 rounded-lg font-semibold shadow-sm">Get In Touch</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold section-title leading-tight">Real Conversations. <br> Real Founder Challenges. Real Support.</h1>
+                <p class="mt-6 text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                    A confidential, peer-to-peer support event for startup founders to share challenges, gain perspective, and build a genuine community.
+                </p>
+                <div class="mt-10">
+                    <a href="#contact" class="cta-button px-8 py-4 rounded-lg font-bold text-lg shadow-lg">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- What is Founder Therapy? Section -->
+        <section id="concept" class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold section-title">What is Founder Therapy?</h2>
+                        <p class="mt-4 text-lg text-slate-600">
+                            Founder Therapy is a confidential, peer-to-peer support event for startup founders. In small, moderated groups, founders share their most pressing challenges—from co-founder conflicts to funding fears—in a safe and supportive environment.
+                        </p>
+                        <p class="mt-4 text-lg text-slate-600">
+                            The format is built on the principle of sharing experiences, not giving unsolicited advice. This allows participants to gain credible perspectives from others who have walked a similar path, fostering resilience, building community, and providing actionable insights to navigate the turbulent journey of entrepreneurship.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="founders-therapy-session.jpg" alt="Founders in a discussion group" class="rounded-xl shadow-2xl w-full h-auto">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="container mx-auto px-6">
+            <hr class="border-t border-slate-200">
+        </div>
+
+        <!-- Value for Accelerators Section -->
+        <section id="accelerators" class="py-20 md:py-28 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold section-title">The Value for Accelerators & Incubators</h2>
+                    <p class="mt-4 text-lg text-slate-600">A powerful tool for community building and genuine founder support that differentiates your program.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl text-slate-800">Forge Authentic Community</h3>
+                        <p class="mt-2 text-slate-600">"Rip down the walls" on day one, allowing a new cohort to build deep, trusting connections immediately.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl text-slate-800">Deliver High-Impact Value</h3>
+                        <p class="mt-2 text-slate-600">Founders consistently rate it as one of the most valuable parts of their program.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl text-slate-800">Fill a Gap in the Ecosystem</h3>
+                        <p class="mt-2 text-slate-600">Provide a rare space for founders to discuss real problems and help each other.</p>
+                    </div>
+                    <!-- Feature 4 -->
+                    <div class="bg-slate-50 p-6 rounded-lg">
+                        <h3 class="font-bold text-xl text-slate-800">Strengthen Your Brand</h3>
+                        <p class="mt-2 text-slate-600">Show you're invested in the holistic success and well-being of your founders.</p>
+                    </div>
+                </div>
+                <div class="mt-16">
+                    <div class="quote-card p-8 rounded-lg max-w-4xl mx-auto shadow-lg">
+                        <p class="text-xl italic text-slate-700">"Founder Therapy is consistently one of the highest-rated program elements. We do it on the first day when everyone meets each other. They off the bat get to rip down the walls and be very vulnerable with each other in a safe space. Founders found it very, very valuable, and they learned a lot coming out of it. There are a lot of events and community groups, but to my knowledge, there isn't one for startup founders, where they are coming in to talk about real problems and trying to help each other solve them."</p>
+                        <p class="mt-4 font-semibold text-slate-800">- Praveeni Rasiah, Director, Community & Partnerships, TBDC</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value for Founders Section -->
+        <section id="founders" class="py-20 md:py-28">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+                     <div class="order-2 md:order-1">
+                        <img src="A-founder-like-you.jpg" alt="A founder looking thoughtful" class="rounded-xl shadow-2xl w-full h-auto">
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <h2 class="text-3xl md:text-4xl font-bold section-title">The Value for Founders</h2>
+                        <ul class="mt-6 space-y-4 text-lg text-slate-600">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><span class="font-semibold">A Safe Space for Vulnerability:</span> Talk about your "weak points" without the pressure to impress.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><span class="font-semibold">Gain Perspective, Not Platitudes:</span> Get credible, heartfelt opinions from peers who truly understand your situation.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><span class="font-semibold">Realize You're Not Alone:</span> Hearing that other successful founders have similar struggles is validating and empowering.</span>
+                            </li>
+                             <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span><span class="font-semibold">Move from Venting to Action:</span> Guided conversations steer you toward exploring potential solutions and strategic thinking.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="mt-16 grid md:grid-cols-2 gap-8">
+                    <div class="quote-card p-8 rounded-lg shadow-lg">
+                        <p class="text-xl italic text-slate-700">"I think it was like the most helpful session in the whole program. You never really get to talk about your weak points with other people because you're always trying to impress."</p>
+                        <p class="mt-4 font-semibold text-slate-800">- Cindy, Founder</p>
+                    </div>
+                     <div class="quote-card p-8 rounded-lg shadow-lg">
+                        <p class="text-xl italic text-slate-700">"Advice not allowed. That's amazing. The focus on stories and the experience that other founders can share is a game changer"</p>
+                        <p class="mt-4 font-semibold text-slate-800">- Ahmed, Founder</p>
+                    </div>
+                 </div>
+                 <div class="mt-16 grid md:grid-cols-2 gap-8">
+                    <div class="quote-card p-8 rounded-lg shadow-lg">
+                        <p class="text-xl italic text-slate-700">"Talking to other founders teaches you more than any program, book, or course!"</p>
+                        <p class="mt-4 font-semibold text-slate-800">- Nick, Founder</p>
+                    </div>
+                     <div class="quote-card p-8 rounded-lg shadow-lg">
+                        <p class="text-xl italic text-slate-700">"Being a founder is a journey that has patterns and similarities that only founders can see and understand."</p>
+                        <p class="mt-4 font-semibold text-slate-800">- Mahdi, Founder</p>
+                    </div>
+
+                 </div>
+            </div>
+        </section>
+
+        <!-- Contact/CTA Section -->
+        <section id="contact" class="bg-slate-800 text-white py-20 md:py-28">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold">Ready to bring Founder Therapy to your community?</h2>
+                <p class="mt-4 text-lg text-slate-300 max-w-2xl mx-auto">Let's connect to discuss how we can create a supportive space for your founders to thrive.</p>
+                <div class="mt-10">
+                    <a href="mailto:therapy@abilitymatrix.com" class="cta-button px-8 py-4 rounded-lg font-bold text-lg shadow-lg">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-100 py-8">
+        <div class="container mx-auto px-6 text-center text-slate-500">
+            <p>&copy; 2025 AbilityMatrix and Product Therapy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            // Toggle display property
+            if (mobileMenu.style.display === 'block') {
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileMenu.style.display = 'block';
+            }
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let i = 0; i < mobileMenuLinks.length; i++) {
+            mobileMenuLinks[i].addEventListener('click', () => {
+                mobileMenu.style.display = 'none';
+            });
+        }
+    </script>
+
+</body>
+</html>
